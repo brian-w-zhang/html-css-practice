@@ -1,0 +1,37 @@
+p {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.new {
+  color: rgb(203, 136, 11);
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.mac {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.super {
+  font-weight: bold;
+  font-size: 37px;
+  margin-bottom: 5px;
+}
+.buy {
+  /* display: block; */
+
+  width: 40px; /* Adjust the width as needed */
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: rgb(30, 94, 244);
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px; /* Adjust padding for better appearance */
+  text-align: center;
+  font-size: 15px;
+}
