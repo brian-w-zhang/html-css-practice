@@ -14,6 +14,7 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
       }
       .join-button {
         background-color: white;
@@ -25,6 +26,7 @@
         width: 62px;
         border-radius: 2px;
         cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
       }
       .tweet-button {
         background-color: rgb(40, 138, 236);
@@ -37,6 +39,7 @@
         font-size: 15px;
         cursor: pointer;
         margin-left: 8px;
+        transition: box-shadow 0.15s;
       }
       .request-button {
         background-color: black;
@@ -112,6 +115,25 @@
         color: rgb(10, 102, 194);
         font-weight: bold;
         cursor: pointer;
+      }
+      .subscribe-button:hover {
+        opacity: 0.8;
+      }
+      .subscribe-button:active {
+        opacity: 0.4;
+      }
+      .join-button:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+      }
+      .join-button:active {
+        opacity: 0.7;
+      }
+      .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+      .tweet-button:active {
+        opacity: 0.7;
       }
     </style>
   </head>
